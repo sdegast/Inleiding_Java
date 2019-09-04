@@ -14,11 +14,13 @@ public class ex04 extends Applet {
     public void paint(Graphics g) {
 
         int i = 0;
+        int x = 20;
 
         while(i < 10) {
             a += 3;
+            g.drawString("" + a, x, 20);
             i++;
+            x += 20;
         }
-        g.drawString("" + a, 20, 20);
     }
 }
