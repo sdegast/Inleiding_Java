@@ -71,7 +71,7 @@ public class ex04 extends Applet {
                     days = 28;
                     repaint();
                 }
-                else if(input == 2 && leapyear) {
+                if(input == 2 && leapyear) {
                     month = "Februari";
                     days = 29;
                     repaint();
