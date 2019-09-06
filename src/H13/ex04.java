@@ -4,7 +4,7 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class ex04 extends Applet {
-    
+
     public void init() {
         setSize(1080, 720);
     }
